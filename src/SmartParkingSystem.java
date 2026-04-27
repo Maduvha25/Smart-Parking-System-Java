@@ -11,7 +11,7 @@ import parking.ParkingManager;
  *
  * @author USER
  */
-public class SmartParkingSystem {
+/*public class SmartParkingSystem {
     public static void main(String[] args) {
 
         ParkingManager manager = new ParkingManager();

@@ -41,11 +41,11 @@ public class FileManager {
                  
                  //if null the car is still insde
                 LocalDateTime exit;
-if (p[2].equals("null")) {
-    exit = null;
-} else {
-    exit = LocalDateTime.parse(p[2]);
-}
+               if (p[2].equals("null")) {
+                   exit = null;
+                 } else {
+                   exit = LocalDateTime.parse(p[2]);
+                  }
                  
                  //add rexord to the list
                  list.add(new VehicleRecord(plate,entry,exit));
