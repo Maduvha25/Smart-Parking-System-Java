@@ -140,7 +140,7 @@ private ParkingManager manager = new ParkingManager();
     }//GEN-LAST:event_btnEntryActionPerformed
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
-        String plate = txtPlate.getText();          // Get plate
+        String plate = txtPlate.getText();          // Get plate NUMBER AS A TEXT FROM TEXT FIELD
         boolean exited = manager.vehicleExit(plate);
 
         if (exited) {
@@ -152,7 +152,7 @@ private ParkingManager manager = new ParkingManager();
     }//GEN-LAST:event_btnExitActionPerformed
 
     private void btnShowActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnShowActionPerformed
-        txtArea.setText(manager.showAllRecords()); // Display all parking history
+        txtArea.setText(manager.showAllRecords()); 
     }//GEN-LAST:event_btnShowActionPerformed
 
     private void txtPlateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPlateActionPerformed
